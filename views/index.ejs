@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('partials/header') %>
+
+<!-- Home page -->
+<section>
+  <h1>Welcome to My Portfolio</h1>
+  <p>
+    Hello! I'm Hamza, an Information Technology student
+    specializing in Networking and IT Security.
+  </p>
+  <p>
+    This portfolio highlights my technical skills,
+    academic projects, and interests in cybersecurity.
+  </p>
+  <a href="/projects">Explore My Projects</a>
+</section>
+
+<%- include('partials/footer') %>
