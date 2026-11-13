@@ -1,25 +1,213 @@
 <%- include('partials/header') %>
 
-<!-- Contact Me page -->
-<section>
-  <h1>Contact Me</h1>
-  <p>
-    Thank you for visiting my portfolio.
-    Feel free to connect with me through the platforms below.
+<!-- ======================================
+     Contact Me - Introduction
+     ====================================== -->
+
+<section class="mb-5">
+
+  <p class="text-uppercase fw-bold mb-2"
+     style="color: var(--portfolio-teal);">
+    Let's Connect
   </p>
 
-  <ul>
-    <li>
-      <a href="https://github.com/hamzaalsamraaie">
-        GitHub Profile
-      </a>
-    </li>
-    <li>
-      <a href="https:www.linkedin.com/in/hamza-al-samraaie-73164a22b">
-        LinkedIn Profile
-      </a>
-    </li>
-  </ul>
+  <h1 class="display-5 fw-bold mb-3">
+    Contact Me
+  </h1>
+
+  <p class="lead">
+    Thank you for visiting my portfolio!
+  </p>
+
+  <p>
+    I'm interested in cybersecurity, networking,
+    software development, and opportunities
+    to continue learning and growing.
+  </p>
+
+  <p>
+    If you'd like to connect or learn more about
+    my technical projects, you can find me on
+    the platforms below.
+  </p>
+
+</section>
+
+<!-- ======================================
+     Contact Methods - Bootstrap Cards
+     ====================================== -->
+
+<section class="mb-5"
+         aria-labelledby="contact-methods-heading">
+
+  <h2 id="contact-methods-heading"
+      class="h3 mb-4">
+    Connect With Me
+  </h2>
+
+  <div class="row g-4">
+
+    <!-- GitHub contact card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-brands fa-github fa-3x mb-3"
+             style="color: var(--portfolio-teal);"
+             aria-hidden="true"></i>
+
+          <h3 class="card-title h5">
+            GitHub
+          </h3>
+
+          <p class="card-text">
+            Explore my repositories, programming
+            projects, and ongoing technical work.
+          </p>
+
+          <p class="text-secondary">
+            github.com/hamzaalsamraaie
+          </p>
+
+          <a href="https://github.com/hamzaalsamraaie"
+             class="btn btn-primary"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            <i class="fa-brands fa-github me-2"
+               aria-hidden="true"></i>
+            View GitHub Profile
+
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- LinkedIn contact card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-brands fa-linkedin fa-3x mb-3"
+             style="color: var(--portfolio-teal);"
+             aria-hidden="true"></i>
+
+          <h3 class="card-title h5">
+            LinkedIn
+          </h3>
+
+          <p class="card-text">
+            Connect with me professionally
+            and learn more about my education,
+            skills, and career interests.
+          </p>
+
+          <p class="text-secondary">
+            Hamza Al-Samraaie
+          </p>
+
+          <a href="https://www.linkedin.com/in/hamza-al-samraaie-73164a22b"
+             class="btn btn-primary"
+             target="_blank"
+             rel="noopener noreferrer">
+
+            <i class="fa-brands fa-linkedin me-2"
+               aria-hidden="true"></i>
+            Connect on LinkedIn
+
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ======================================
+     Career Interests
+     ====================================== -->
+
+<section class="mb-5"
+         aria-labelledby="opportunities-heading">
+
+  <div class="card shadow-sm">
+
+    <div class="card-body p-4">
+
+      <i class="fa-solid fa-handshake fa-2x mb-3"
+         style="color: var(--portfolio-teal);"
+         aria-hidden="true"></i>
+
+      <h2 id="opportunities-heading"
+          class="card-title h4 mb-3">
+        Open to Opportunities
+      </h2>
+
+      <p class="card-text">
+        I'm interested in connecting with
+        professionals and students who share
+        an interest in technology and cybersecurity.
+      </p>
+
+      <p class="card-text mb-0">
+        My areas of interest include information
+        security, network security, security
+        engineering, and software development.
+      </p>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ======================================
+     Internal Navigation
+     ====================================== -->
+
+<section class="text-center mb-5"
+         aria-labelledby="explore-heading">
+
+  <h2 id="explore-heading" class="h3 mb-3">
+    Explore More
+  </h2>
+
+  <p>
+    Want to learn more about my background
+    or see my technical projects?
+  </p>
+
+  <div class="d-flex justify-content-center
+              flex-wrap gap-3">
+
+    <a href="/about"
+       class="btn btn-outline-primary btn-lg">
+
+      <i class="fa-solid fa-user me-2"
+         aria-hidden="true"></i>
+      About Me
+
+    </a>
+
+    <a href="/projects"
+       class="btn btn-primary btn-lg">
+
+      <i class="fa-solid fa-code me-2"
+         aria-hidden="true"></i>
+      View My Projects
+
+    </a>
+
+  </div>
+
 </section>
 
 <%- include('partials/footer') %>

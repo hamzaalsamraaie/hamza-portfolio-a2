@@ -6,3 +6,38 @@ body {
 a {
   color: #00B7FF;
 }
+
+/* Portfolio colors based on Assignment 1 */
+:root {
+  --portfolio-navy: #14365B;
+  --portfolio-teal: #1F6F8B;
+  --portfolio-background: #DCE8EE;
+  --portfolio-surface: #F2F6F8;
+  --portfolio-accent: #E8A33D;
+}
+
+/* General page styling */
+body {
+  background-color: var(--portfolio-background);
+  color: #1A1A1C;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* Shared navigation */
+.portfolio-navbar {
+  background: linear-gradient(
+    to right,
+    var(--portfolio-navy),
+    var(--portfolio-teal)
+  );
+}
+
+/* Shared footer */
+.portfolio-footer {
+  background-color: var(--portfolio-navy);
+  color: white;
+}
+
+.portfolio-footer a {
+  color: white;
+}

@@ -6,21 +6,84 @@
   <title><%= title %> | Hamza's Portfolio</title>
 
   <!-- Main portfolio stylesheet -->
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  
+<!-- Bootstrap responsive framework -->
+<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+
+<!-- Font Awesome icons -->
+<link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
+
+<!-- Custom portfolio styling -->
+<link rel="stylesheet" href="/stylesheets/style.css">
+
 </head>
 
 <body>
-  <!-- Shared navigation -->
-  <header>
-    <nav aria-label="Main navigation">
-      <a href="/">Hamza's Portfolio</a>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Me</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/contact">Contact Me</a></li>
-      </ul>
-    </nav>
-  </header>
+ 
+<!-- Responsive portfolio navigation -->
+<header>
+  <nav class="navbar navbar-expand-lg portfolio-navbar"
+       data-bs-theme="dark" aria-label="Main navigation">
+
+    <div class="container">
+
+      <!-- Portfolio brand -->
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="fa-solid fa-shield-halved me-2"></i>
+        Hamza's Portfolio
+      </a>
+
+      <!-- Mobile navigation toggle -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#portfolioNavigation"
+              aria-controls="portfolioNavigation"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse"
+           id="portfolioNavigation">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="fa-solid fa-house me-1"></i>
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/about">
+              <i class="fa-solid fa-user me-1"></i>
+              About Me
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">
+              <i class="fa-solid fa-code me-1"></i>
+              Projects
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">
+              <i class="fa-solid fa-envelope me-1"></i>
+              Contact Me
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container py-5">
+
 
   <main>

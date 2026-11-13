@@ -1,17 +1,203 @@
+
 <%- include('partials/header') %>
 
-<!-- Home page -->
-<section>
-  <h1>Welcome to My Portfolio</h1>
-  <p>
-    Hello! I'm Hamza, an Information Technology student
-    specializing in Networking and IT Security.
-  </p>
-  <p>
-    This portfolio highlights my technical skills,
-    academic projects, and interests in cybersecurity.
-  </p>
-  <a href="/projects">Explore My Projects</a>
+<!-- ======================================
+     Home Page - Introduction
+     ====================================== -->
+
+<section class="row align-items-center gy-4 mb-5">
+
+  <!-- Introduction text -->
+  <div class="col-lg-8">
+
+    <p class="text-uppercase fw-bold mb-2"
+       style="color: var(--portfolio-teal);">
+      Networking &amp; IT Security
+    </p>
+
+    <h1 class="display-5 fw-bold mb-3">
+      Hi, I'm Hamza Al-Samraaie.
+    </h1>
+
+    <p class="lead">
+      I'm an Information Technology student at
+      Ontario Tech University, specializing in
+      Networking and IT Security.
+    </p>
+
+    <p>
+      I'm interested in cybersecurity, networking,
+      and software development. This portfolio
+      highlights my technical skills, academic work,
+      and projects.
+    </p>
+
+    <!-- Main navigation buttons -->
+    <div class="d-flex flex-wrap gap-3 mt-4">
+
+      <a href="/projects" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-code me-2"></i>
+        View My Projects
+      </a>
+
+      <a href="/contact"
+         class="btn btn-outline-secondary btn-lg">
+        <i class="fa-solid fa-envelope me-2"></i>
+        Contact Me
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- Introduction icon panel -->
+  <div class="col-lg-4 text-center">
+
+    <div class="card shadow-sm border-0">
+      <div class="card-body py-5">
+
+        <i class="fa-solid fa-shield-halved fa-5x mb-3"
+           style="color: var(--portfolio-teal);"></i>
+
+        <h2 class="h5">
+          Networking &amp; Cybersecurity
+        </h2>
+
+        <p class="mb-0 text-secondary">
+          Learning, building, and improving
+          technical skills.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ======================================
+     Home Page - Overview Cards
+     ====================================== -->
+
+<section aria-labelledby="overview-heading">
+
+  <h2 id="overview-heading" class="h3 mb-4">
+    Explore My Portfolio
+  </h2>
+
+  <div class="row g-4">
+
+    <!-- Education card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-network-wired fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            What I Study
+          </h3>
+
+          <p class="card-text">
+            Networking, IT security, and software
+            development at Ontario Tech University.
+          </p>
+
+          <a href="/about" class="btn btn-outline-primary">
+            Learn More
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Certification card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-award fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Certifications
+          </h3>
+
+          <p class="card-text">
+            CompTIA Security+ certified, with
+            an interest in continuing to develop
+            cybersecurity knowledge.
+          </p>
+
+          <a href="/about" class="btn btn-outline-primary">
+            About My Skills
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Projects card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-laptop-code fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            What I Build
+          </h3>
+
+          <p class="card-text">
+            Explore my programming, networking,
+            and security-related projects.
+          </p>
+
+          <a href="/projects" class="btn btn-outline-primary">
+            Explore Projects
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Contact card -->
+    <div class="col-md-6">
+
+      <article class="card h-100 shadow-sm">
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-address-card fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Get in Touch
+          </h3>
+
+          <p class="card-text">
+            Interested in connecting or discussing
+            opportunities? Visit my contact page.
+          </p>
+
+          <a href="/contact" class="btn btn-outline-primary">
+            Contact Me
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
 </section>
 
 <%- include('partials/footer') %>

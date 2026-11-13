@@ -1,15 +1,47 @@
+
+  <!-- Close the main content opened in header.ejs -->
   </main>
 
-  <!-- Shared footer -->
-  <footer>
-    <p>&copy; <%= new Date().getFullYear() %> Hamza's Portfolio</p>
-    <p>
-      <a href="https://github.com/hamzaalsamraaie"
-         target="_blank" rel="noopener noreferrer">GitHub</a>
+  <!-- Shared portfolio footer -->
+  <footer class="portfolio-footer text-center py-4">
 
-      <a href="www.linkedin.com/in/hamza-al-samraaie-73164a22b"
-         target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    </p>
+    <div class="container">
+
+      <!-- Copyright information -->
+      <p class="mb-3">
+        &copy; <%= new Date().getFullYear() %>
+        Hamza's Portfolio. All rights reserved.
+      </p>
+
+      <!-- Social media links -->
+      <div class="d-flex justify-content-center flex-wrap gap-4">
+
+        <!-- GitHub profile -->
+        <a href="https://github.com/hamzaalsamraaie"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <i class="fa-brands fa-github me-2"></i>
+          GitHub
+        </a>
+
+        <!-- LinkedIn profile -->
+        <a href="https://www.linkedin.com/in/hamza-al-samraaie-73164a22b"
+           target="_blank"
+           rel="noopener noreferrer">
+
+          <i class="fa-brands fa-linkedin me-2"></i>
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
   </footer>
+
+  <!-- Bootstrap JavaScript for responsive navigation -->
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

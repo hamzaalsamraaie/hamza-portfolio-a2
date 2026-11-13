@@ -1,24 +1,266 @@
 <%- include('partials/header') %>
 
-<!-- Projects page -->
-<section>
-  <h1>My Projects</h1>
-  <p>Here are some of my technical and academic projects.</p>
+<!-- ======================================
+     Projects Page - Introduction
+     ====================================== -->
 
-  <article>
-    <h2>Desktop Security Application</h2>
-    <p>A security-focused software development project.</p>
-  </article>
+<section class="mb-5">
 
-  <article>
-    <h2>Cisco Network Setup</h2>
-    <p>A project involving network configuration and connectivity.</p>
-  </article>
+  <p class="text-uppercase fw-bold mb-2"
+     style="color: var(--portfolio-teal);">
+    My Work
+  </p>
 
-  <article>
-    <h2>Hangman Game</h2>
-    <p>A programming project focused on game logic and interaction.</p>
-  </article>
+  <h1 class="display-5 fw-bold mb-3">
+    Featured Projects
+  </h1>
+
+  <p class="lead">
+    Here are some of the projects I have worked
+    on during university, high school, and
+    independent learning.
+  </p>
+
+  <p>
+    These projects have helped me develop skills
+    in networking, programming, cybersecurity,
+    and problem-solving.
+  </p>
+
+</section>
+
+<!-- ======================================
+     Projects - Bootstrap Responsive Grid
+     ====================================== -->
+
+<section class="mb-5"
+         aria-labelledby="projects-heading">
+
+  <h2 id="projects-heading" class="h3 mb-4">
+    Explore My Projects
+  </h2>
+
+  <div class="row g-4">
+
+    <!-- Project 1: Desktop Security App -->
+    <div class="col-md-6 col-lg-4">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-shield-halved fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Desktop Security App
+          </h3>
+
+          <p class="card-text">
+            A personal project where I am building
+            a desktop application that checks a
+            computer for common security problems.
+            It scans the system, monitors important
+            files for changes, and logs its findings.
+          </p>
+
+          <p class="mb-2">
+            <strong>Technologies:</strong>
+            JavaScript, Electron
+          </p>
+
+          <p class="mb-0">
+            <strong>What I Learned:</strong>
+            How common security issues can appear
+            on a real computer system.
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Project 2: Cisco Network Setup -->
+    <div class="col-md-6 col-lg-4">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-network-wired fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Cisco Network Setup
+          </h3>
+
+          <p class="card-text">
+            A final networking project where I
+            configured a network using Cisco
+            routers and switches. I assigned IP
+            addresses, configured network devices,
+            and tested connectivity.
+          </p>
+
+          <p class="mb-2">
+            <strong>Technologies:</strong>
+            Cisco routers and switches
+          </p>
+
+          <p class="mb-0">
+            <strong>What I Learned:</strong>
+            How to plan, configure, and
+            troubleshoot a computer network.
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Project 3: Hangman Game -->
+    <div class="col-md-6 col-lg-4">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-terminal fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Hangman Game in Python
+          </h3>
+
+          <p class="card-text">
+            A Hangman game developed in Python
+            for my Introduction to Programming
+            course. The player guesses letters
+            to identify a hidden word before
+            running out of attempts.
+          </p>
+
+          <p class="mb-2">
+            <strong>Technologies:</strong>
+            Python
+          </p>
+
+          <p class="mb-0">
+            <strong>What I Learned:</strong>
+            Programming loops, conditional
+            statements, and user input handling.
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Project 4: Gravity and Roller Coasters -->
+    <div class="col-md-6 col-lg-4">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-gauge-high fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Gravity and Roller Coasters
+          </h3>
+
+          <p class="card-text">
+            A high school physics project
+            exploring how gravity affects
+            roller coaster motion, including
+            how height influences speed
+            while moving up and down hills.
+          </p>
+
+          <p class="mb-2">
+            <strong>Concepts:</strong>
+            Gravity, potential energy,
+            kinetic energy
+          </p>
+
+          <p class="mb-0">
+            <strong>What I Learned:</strong>
+            How potential energy transforms
+            into kinetic energy during motion.
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Project 5: Trie Autocomplete -->
+    <div class="col-md-6 col-lg-4">
+
+      <article class="card h-100 shadow-sm">
+
+        <div class="card-body p-4">
+
+          <i class="fa-solid fa-code-branch fa-2x mb-3"
+             style="color: var(--portfolio-teal);"></i>
+
+          <h3 class="card-title h5">
+            Trie Autocomplete in Python
+          </h3>
+
+          <p class="card-text">
+            A Standard Trie data structure
+            implemented in Python for my
+            Data Structures and Algorithms
+            course. The program finds stored
+            words matching a provided prefix.
+          </p>
+
+          <p class="mb-2">
+            <strong>Technologies:</strong>
+            Python, Trie data structures
+          </p>
+
+          <p class="mb-0">
+            <strong>What I Learned:</strong>
+            How tree-based structures support
+            efficient prefix searching.
+          </p>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ======================================
+     Projects - Contact Section
+     ====================================== -->
+
+<section class="text-center mb-5"
+         aria-labelledby="project-contact-heading">
+
+  <h2 id="project-contact-heading" class="h3 mb-3">
+    Interested in My Work?
+  </h2>
+
+  <p>
+    Visit my contact page to connect with me
+    or learn more about my projects.
+  </p>
+
+  <a href="/contact"
+     class="btn btn-primary btn-lg">
+
+    <i class="fa-solid fa-envelope me-2"></i>
+    Contact Me
+
+  </a>
+
 </section>
 
 <%- include('partials/footer') %>
